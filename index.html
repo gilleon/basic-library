@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Hello, JavaScript.</h1>
+      <section class="input-section">
+        <input
+          type="text"
+          id="entry"
+          placeholder="Enter item to add to library"
+        />
+        <div class="button-container">
+          <button id="add">Add Item</button>
+          <button id="remove">Remove Item</button>
+          <button id="pick">Pick Random Item</button>
+        </div>
+      </section>
+      <!-- Notice Section -->
+      <section>
+        <div id="notice"></div>
+      </section>
+      <!-- List Section -->
+      <section>
+        <h2>Books in your library:</h2>
+        <p id="empty-list-text">Your Library is Empty</p>
+        <ul id="list"></ul>
+      </section>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
